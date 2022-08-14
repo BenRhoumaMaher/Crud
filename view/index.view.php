@@ -12,7 +12,7 @@
 <body>
     <div class="container mt-3">
         <h1 class="text-center text-danger fw-bold">M&CODE</h1>
-        <h2 class="text-center text-muted">Welcome</h2>
+        <h2 class="text-center text-muted">Welcome !</h2>
         <div class="d-flex justify-content-between mt-3">
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#add">Add</button>
             <a href="Authentification/logout.php">
