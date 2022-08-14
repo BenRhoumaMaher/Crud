@@ -51,15 +51,15 @@ if(is_post()) {
             $subject = "Registration for ".$email;
             $body = "Thank you for your registration " .$name. "<br>" ." Here's your link of activation : http://localhost/forms/Authentification/activation.php?token=" .$token;
             $email_to = $email;
-            $email_from = "maherbenrhoumaa@gmail.com";
+            $email_from = "*********";
             $sender_name = "M&CODE";
             require('../PHPMailer/PHPMailerAutoload.php');
             $mail = new PHPMailer();
             $mail->isSMTP();
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
-            $mail->Username = "maherbenrhoumaa@gmail.com";
-            $mail->Password = "njfzlecqqnisnohh";
+            $mail->Username = "*********";
+            $mail->Password = "*********";
             $mail->Port = 25;
             $mail->IsHTML(true);
             $mail->From = $email_from;
