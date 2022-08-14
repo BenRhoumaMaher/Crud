@@ -16,15 +16,15 @@ if(is_post()){
         $subject = "Recovering Password for : ".$email;
             $body = "Welcome " .$query['name']. "<br>" ." Here's your link for recovering : http://localhost/forms/Authentification/recovering.php?token=" .$query['token'];
             $email_to = $email;
-            $email_from = "maherbenrhoumaa@gmail.com";
+            $email_from = "*********";
             $sender_name = "M&CODE";
             require('../PHPMailer/PHPMailerAutoload.php');
             $mail = new PHPMailer();
             $mail->isSMTP();
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
-            $mail->Username = "maherbenrhoumaa@gmail.com";
-            $mail->Password = "njfzlecqqnisnohh";
+            $mail->Username = "*********";
+            $mail->Password = "*********";
             $mail->Port = 25;
             $mail->IsHTML(true);
             $mail->From = $email_from;
